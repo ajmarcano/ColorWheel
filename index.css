@@ -1,0 +1,106 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.color-picker-container {
+    display: flex;
+    margin-top: 23px;
+    margin-bottom: 25px;
+    justify-content: space-around;
+    padding: 0px 15px;
+}
+
+.color-picker {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    right: 0px;
+    left: 0px;
+    margin-right: 40px;
+}
+
+.color-picker-hex {
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    margin-left: 8px;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    color: white;
+}
+
+.color-picker-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width:61px;
+    height: 42px;
+    border: 0.5px solid #D1D5DB;
+    background: #E5E5E5;
+}
+
+
+.scheme-list {
+    width: 312px;
+    height: 42px;
+    border-radius: 6px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    background: var(--white, #FFF);
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.scheme-button {
+    width: 123px;
+    height: 42px;
+    border-radius: 6px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.colors-container {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    height: 400px;
+    background: gray;
+}
+
+.colors {
+    height: 100%;
+    width: 20%;    
+}
+
+.color-1 {
+    background: white;
+}
+.color-2 {
+    background: white;
+}
+.color-3 {
+    background: white;
+}
+.color-4 {
+    background: white;
+}
+.color-5 {
+    background: white;
+}
+
+.color-names-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 46px;
+}
+
+.names {
+    width: 20%;
+    color: #2B283A;
+}
